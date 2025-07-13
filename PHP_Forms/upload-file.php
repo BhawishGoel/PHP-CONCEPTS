@@ -11,7 +11,7 @@
 
 
 if($_FILES['fileUpload']){                 // if files exits krti ho toh then make a path  of file name 
-$path = $_FILES['fileUpload']['name'];
+$path = $_FILES['fileUpload']['name'];     // to find the actual name of the file which is saved on our server/localhost
 // echo $path;
 
 $upload_path ="./uploads".$path;           // to set the path where we have to upload the file .....so we   make a uploads folder and inside that we put the $path which is the path name of the file   
