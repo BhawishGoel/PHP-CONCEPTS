@@ -18,7 +18,7 @@ $upload_path ="./uploads".$path;           // to set the path where we have to u
 
 
 // echo $upload_path;
-if(move_uploaded_file( $_FILES['fileUpload']['tmp_name'], $upload_path)){            // move_upload_file is the function in php which is used to upload the file but when we upload the file for that we have to take the temporary name 
+if(move_uploaded_file( $_FILES['fileUpload']['tmp_name'], $upload_path)){            // move_upload_file is the function in php which is used to upload the file in the code but when we upload the file for that we have to take the temporary name 
     echo "file uploaded";
 }
 else{
